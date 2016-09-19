@@ -113,6 +113,7 @@ public class ObjectMovement : MonoBehaviour
 
 		var fixingRotation = cameraTransform.rotation;
 		fixingRotation.x = 0;
+		fixingRotation.z = 0;
 		var fixedLinear = fixingRotation * linear;
 		var fixedAngular = fixingRotation * angular;
 

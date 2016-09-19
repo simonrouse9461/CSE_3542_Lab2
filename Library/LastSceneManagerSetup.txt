@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/ChuhanFengLab2.unity
+- path: Assets/Scenes/ChuhanFengLab2.unity
   isLoaded: 1
   isActive: 1
