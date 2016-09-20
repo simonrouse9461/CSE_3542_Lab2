@@ -49,6 +49,7 @@
      <Compile Include="Assets\Scripts\ObjectMesh.cs" />
      <Compile Include="Assets\Scripts\ObjectMovement.cs" />
      <Compile Include="Assets\Scripts\TerrainMesh.cs" />
+     <None Include="Assets\README.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
