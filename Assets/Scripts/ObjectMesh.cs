@@ -52,8 +52,27 @@ public class ObjectMesh : MonoBehaviour {
 			}
 		}
 
+		var UVs = new Vector2[24];
+
+		var uvSeq = new []
+		{
+			new Vector2(0, 0),
+			new Vector2(0, 1),
+			new Vector2(1, 1),
+			new Vector2(1, 0),
+		};
+
+		for (var i = 0; i < 6; i++)
+		{
+			for (var j = 0; j < 4; j++)
+			{
+				UVs[i * 4 + j] = uvSeq[j];
+			}
+		}
+
 		mesh.vertices = verticies;
 		mesh.triangles = triangles;
+		mesh.uv = UVs;
 		mesh.RecalculateNormals();
 		mesh.RecalculateBounds();
 		mesh.Optimize();
